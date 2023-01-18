@@ -26,6 +26,9 @@ ausserhalb des lib Ordners ausführen
 
 ![Alt text](images/UML.png?raw=true "UML Diagramm")
 
+Man beachte, dass alle funktionen und Attribute Public sind, da man diese in Python im vergleich zu anderen Objekt Orientierten
+Programmiersprachen nicht einschrenken kann
+
 Das Projekt ist in 6 Dateien aufgeteilt, von welchen 2 (test.py und main.py) zur Ausführung des Codes gedacht sind.
 
 Die Andern Dateien Repräsentieren Klassen, die unten beschrieben werden. 
@@ -87,7 +90,7 @@ ausgegeben werden, die die Bedingung verletzen. Es ist zu überlegen wie für de
 geometrischen Objekte eindeutig identifizierbar gemacht werden kann.
 ```
 
-Entnehmen und hinzufügen in das Koordinatensystem: siehe a).
+Entnehmen und hinzufügen in das Koordinatensystem: 
 Die Funktion overlap() habe ich hingegen nicht in der Coordinates funktion programmiert, da dies gegen das Prinzip der Objektorientierung sprechen würde. Es ergibt mehr sinn für ein Objekt A zu prüfen, ob dieses sich mit Objekt B überschneidet, als dass das Koordinatensytem macht
 
 Die get_overlap funktion in coordinates gibt alle Elemente im Koordinatensystem zurück und gibt an, welche sich davon überlappen
