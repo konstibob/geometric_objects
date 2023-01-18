@@ -108,12 +108,12 @@ außerhalb des Koordinatensystems befindet. Dabei wurden nicht bei allen Fehlerm
 
 Wenn wir bsp. bei einem Viereck mehr x als y Koordinaten haben, halte ich es für falsch eine beliebige Koordinate einzusetzen und einfach durch ein print auf den Fehler aufmerksam zu machen. Stattdessen habe ich einen Error Gerauised
 
-## Seperating Axes Theorem
+## Separating Axes Theorem
 
 Das Schwierigste an dieser Aufgabe war zu überlegen, wie genau man prüft, ob zwei Objekte sich überschneiden. Vorerst hatte ich 
 es mit Punkten versucht, aber schnell gemerkt, dass Vektorrechnung hier sinnvoll ist und deshalb eine Vektoren klasse implementiert. 
 
-Die Idee des Seperating Axes Theorem, welcher für zwei beliebige Polygone löst, ob diese sich Überschneiden, ist , dass wir 
+Die Idee des Separating Axes Theorem, welcher für zwei beliebige Polygone löst, ob diese sich Überschneiden, ist , dass wir 
 prüfen, ob man eine Grade durch die zwei Polygone ziehen könnte. 
 Wenn dies geht, heißt dies, dass diese getrennt sind. 
 
@@ -135,7 +135,7 @@ zwischen die beiden Körper ziehen und die berühren sich nicht.
 
 ### Probleme mit SAT
 
-Es gibt jedoch auch bsp ein kleines Problem mit dem Seperating Axes Theorem 
+Es gibt jedoch auch bsp ein kleines Problem mit dem Separating Axes Theorem 
 
 ![Alt text](images/problem.png?raw=true "Problem")
 
@@ -153,6 +153,6 @@ use pretty hyperlinks here
 
 [Wiki](https://en.wikipedia.org/wiki/Hyperplane_separation_theorem)
 
-[Seperating_Axes](https://gamedevelopment.tutsplus.com/tutorials/collision-detection-using-the-separating-axis-theorem--gamedev-169)
+[Separating_Axes](https://gamedevelopment.tutsplus.com/tutorials/collision-detection-using-the-separating-axis-theorem--gamedev-169)
 
-[Seperating_Axes_with_code](https://hackmd.io/@US4ofdv7Sq2GRdxti381_A/ryFmIZrsl?type=view)
+[Separating_Axes_with_code](https://hackmd.io/@US4ofdv7Sq2GRdxti381_A/ryFmIZrsl?type=view)
