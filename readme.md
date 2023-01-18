@@ -24,7 +24,7 @@ ausserhalb des lib Ordners ausführen
 
 ## Aufbau
 
-![Alt text](images\UML.png?raw=true "UML Diagramm")
+![Alt text](images/UML.png?raw=true "UML Diagramm")
 
 Das Projekt ist in 6 Dateien aufgeteilt, von welchen 2 (test.py und main.py) zur Ausführung des Codes gedacht sind.
 
@@ -123,19 +123,19 @@ links bis zu dem Punkt am weitesten rechts auf der Achse entspricht.
 Bei einem Kreis geht man vom Mittelpunkt aus her nach jeweils links oder rechts in Richtung der Kante auf die man projezieren will
 (parallel) und projeziert nur diese beiden Punkte
 
-![Alt text](images\Kreisprojektion.png?raw=true "Kreisprojektion ")
+![Alt text](images/Kreisprojektion.png?raw=true "Kreisprojektion ")
 
 3 Schritt: Wenn auf einer von diesen Kanten es eine Lücke zwischen den beiden Projektionen gibt heißt das, dass man eine Grade
 zwischen die beiden Körper ziehen und die berühren sich nicht.
 
-![Alt text](images\projection.png?raw=true "Lücke Zwischen zwei Polygonen")
+![Alt text](images/projection.png?raw=true "Lücke Zwischen zwei Polygonen")
 
 
 ### Probleme mit SAT
 
 Es gibt jedoch einige Probleme mit dem Seperating Axes Theorhem 
 
-![Alt text](images\problem.png?raw=true "Problem")
+![Alt text](images/problem.png?raw=true "Problem")
 
 bei der Oberen Abbildung kann man zwischen beide Polygone (wir nehmen an das untere ist auch ein Polygone) keine Grade durchziehen
 Dies ist insbeondere bei unserem Programm ein Problem, da unser Programm solche Polygone zur konstruktion zulässt. 
